@@ -16,6 +16,7 @@ css控制html的样式，js控制html的功能（可以通过事件click，和�
 ```css
 //方式1
 <h1 style="color: red;">Hello World!</h1>
+
 //方式2
 <style>
     h1 {
@@ -23,6 +24,7 @@ css控制html的样式，js控制html的功能（可以通过事件click，和�
         font-size: 30px;
     }
 </style>
+
 //方式3--推荐使用，位置放在<head></head>
 <link rel="stylesheet" type="text/css" href="cssWay3.css">
 ```
